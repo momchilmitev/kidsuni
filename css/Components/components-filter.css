@@ -1,0 +1,19 @@
+.filter--wrapper {
+	background: #f8f8f8;
+}
+
+.filter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.filter__title {
+	color: #565656;
+}
+
+.filter__elements {
+	display: flex;
+	justify-content: space-between;
+}

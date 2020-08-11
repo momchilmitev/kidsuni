@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SoftuniKids</title>
+
+		<link rel="stylesheet" href="css/Generic/generic-normalize.css" />
+
+		<link rel="stylesheet" href="css/Settings/settings-typography.css" />
+
+		<link rel="stylesheet" href="css/Utilities/utilities-centered.css" />
+		<link rel="stylesheet" href="css/Utilities/utilities-hidden.css" />
+
+		<link rel="stylesheet" href="css/Objects/objects-containers.css" />
+
+		<link rel="stylesheet" href="css/Elements/elements-input-fields.css" />
+		<link rel="stylesheet" href="css/Elements/elements-links.css" />
+
+		<link rel="stylesheet" href="css/Components/components-button.css" />
+		<link rel="stylesheet" href="css/Components/components-card.css" />
+		<link rel="stylesheet" href="css/Components/components-filter.css" />
+		<link rel="stylesheet" href="css/Components/components-footer.css" />
+		<link rel="stylesheet" href="css/Components/components-header.css" />
+		<link rel="stylesheet" href="css/Components/components-navigation.css" />
+		<link rel="stylesheet" href="css/Components/components-program.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar">
+				<div class="navbar__wrapper container">
+					<section class="navbar__logo">
+						<img src="assets/images/logo.png" alt="logo" />
+					</section>
+					<ul class="navbar__links">
+						<li class="navbar__link">
+							<a href="#">обучения</a>
+						</li>
+						<li class="navbar__link">
+							<a href="#">Събития</a>
+						</li>
+						<li class="navbar__link">
+							<a href="#">Преподаватели</a>
+						</li>
+						<li class="navbar__link">
+							<a href="#">Блог</a>
+						</li>
+						<li class="navbar__link">
+							<a href="#">Контакти</a>
+						</li>
+						<li class="navbar__link">
+							<img src="assets/icons/search.png" alt="search" />
+						</li>
+						<button class="btn btn--secondary">
+							вход
+						</button>
+					</ul>
+				</div>
+			</nav>
+			<section class="header__info">
+				<h1>Обучения</h1>
+				<p>
+					At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et,
+					morbi. Ut eu hac risus a suscipit cras sagittis viverra gravida.
+					Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus
+					commodo at. Augue ullamcorper suspendisse. Sit morbi risus
+				</p>
+			</section>
+		</header>
+		<main class="main">
+			<section class="filter--wrapper">
+				<div class="filter container">
+					<h4 class="filter__title">Филтър:</h4>
+					<label class="filter__elements" for="level">
+						<img src="assets/images/level.svg" alt="level" />
+						<select name="level" id="level">
+							<option value="">Ниво</option>
+							<option value="basic">Начинаещ</option>
+							<option value="advanced">напреднал</option>
+						</select>
+						<img src="assets/images/question.svg" alt="info" />
+					</label>
+					<label class="filter__elements" for="location">
+						<img src="assets/images/location.svg" alt="location" />
+						<select name="location" id="location">
+							<option value="">Локация</option>
+							<option value="sofia">Sofia</option>
+							<option value="online">Online</option>
+						</select>
+					</label>
+					<label class="filter__elements" for="suitable-for">
+						<img src="assets/images/people.svg" alt="suitable-for" />
+						<select name="suitable-for" id="suitable-for">
+							<option value="">Подходящ за</option>
+							<option value="basic">Начинаещ</option>
+							<option value="advanced">напреднал</option>
+						</select>
+					</label>
+					<label class="filter__elements" for="type">
+						<img src="assets/images/type.svg" alt="type" />
+						<select name="type" id="type">
+							<option value="type">Вид</option>
+							<option value="basic">Inplace</option>
+							<option value="advanced">Online</option>
+						</select>
+					</label>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

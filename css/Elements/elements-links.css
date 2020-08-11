@@ -1,0 +1,11 @@
+button,
+a {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+button {
+	font-weight: 800;
+}

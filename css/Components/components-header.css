@@ -1,0 +1,11 @@
+.header__info {
+	background: #ff9100;
+	color: #fff;
+	text-align: center;
+	padding: 80px;
+}
+
+.header__info p {
+	width: 850px;
+	margin: 0 auto;
+}
